@@ -22,9 +22,14 @@ public class HomePage {
 	public WebElement getUsersModuleLink() {
 		return usersModuleLink;
 	}
-
-	// Business Logic or Action methods or Behavior
-	public void logout() {
-		logoutButton.click();
+	public WebElement getTasksTab() {
+		return TasksTab;
 	}
-}
+	@FindBy(xpath = "//div[text()='Tasks']")
+	private WebElement TasksTab;
+	
+
+//	// Business Logic or Action methods or Behavior
+//	public void logout() {
+//		logoutButton.click();
+	}

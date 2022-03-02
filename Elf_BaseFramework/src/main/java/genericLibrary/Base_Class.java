@@ -66,13 +66,13 @@ public class Base_Class implements FrameworkConstants {
 		homePage = loginPage.login(username, password);
 	}
 
-	@AfterMethod(alwaysRun = true)
-	public void logoutOfApplication() {
-		homePage.logout();
-	}
-
-	@AfterClass(alwaysRun = true)
-	public void closeTheBrowser() {
-		driver.quit();
-	}
+//	@AfterMethod(alwaysRun = true)
+//	public void logoutOfApplication() {
+//		homePage.logout();
+//	}
+//
+//	@AfterClass(alwaysRun = true)
+//	public void closeTheBrowser() {
+//		driver.quit();
+//	}
 }
