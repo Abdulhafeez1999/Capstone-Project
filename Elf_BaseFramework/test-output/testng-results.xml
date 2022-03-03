@@ -8,12 +8,12 @@
       <![CDATA[Browser window is maximized successfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-03-02T15:29:20 IST" name="Default suite" finished-at="2022-03-02T15:29:43 IST" duration-ms="23073">
+  <suite started-at="2022-03-02T18:57:38 IST" name="Default suite" finished-at="2022-03-02T18:58:00 IST" duration-ms="21345">
     <groups>
     </groups>
-    <test started-at="2022-03-02T15:29:20 IST" name="Default test" finished-at="2022-03-02T15:29:43 IST" duration-ms="23073">
-      <class name="users.NewProjectTest">
-        <test-method is-config="true" signature="openTheBrowser(java.lang.String)[pri:0, instance:users.NewProjectTest@74455848]" started-at="2022-03-02T15:29:20 IST" name="openTheBrowser" finished-at="2022-03-02T15:29:24 IST" duration-ms="4139" status="PASS">
+    <test started-at="2022-03-02T18:57:38 IST" name="Default test" finished-at="2022-03-02T18:58:00 IST" duration-ms="21345">
+      <class name="users.NewCustomerTest">
+        <test-method is-config="true" signature="openTheBrowser(java.lang.String)[pri:0, instance:users.NewCustomerTest@74455848]" started-at="2022-03-02T18:57:38 IST" name="openTheBrowser" finished-at="2022-03-02T18:57:43 IST" duration-ms="4185" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- openTheBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:users.NewProjectTest@74455848]" started-at="2022-03-02T15:29:24 IST" name="loginToApplication" finished-at="2022-03-02T15:29:30 IST" duration-ms="5658" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:users.NewCustomerTest@74455848]" started-at="2022-03-02T18:57:43 IST" name="loginToApplication" finished-at="2022-03-02T18:57:49 IST" duration-ms="6754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="Go_To_Tasks()[pri:0, instance:users.NewProjectTest@74455848]" started-at="2022-03-02T15:29:30 IST" name="Go_To_Tasks" finished-at="2022-03-02T15:29:43 IST" duration-ms="13199" status="PASS">
+        <test-method signature="Go_To_Tasks()[pri:0, instance:users.NewCustomerTest@74455848]" started-at="2022-03-02T18:57:49 IST" name="Go_To_Tasks" finished-at="2022-03-02T18:58:00 IST" duration-ms="10328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Go_To_Tasks -->
-      </class> <!-- users.NewProjectTest -->
+      </class> <!-- users.NewCustomerTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
